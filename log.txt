@@ -19,3 +19,8 @@
 2024-09-21 00:17:38.095396: Copied file: C:\Users\sahin\Downloads\payslip\New_folder\24618912_11_2022.cs.en.PDF to C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\.\24618912_11_2022.cs.en.PDF
 2024-09-21 00:17:38.110620: Copied file: C:\Users\sahin\Downloads\payslip\New_folder\24618912_12_2022.cs.en.PDF to C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\.\24618912_12_2022.cs.en.PDF
 2024-09-21 00:17:38.125429: Copied file: C:\Users\sahin\Downloads\payslip\New_folder\New Microsoft Excel Worksheet.xlsx to C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\.\New Microsoft Excel Worksheet.xlsx
+2024-09-21 00:18:38.192865: Removed file: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\24618912_03_2023.cs.en.PDF
+2024-09-21 00:18:38.192865: Removed file: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\24618912_04_2023.cs.en.PDF
+2024-09-21 00:18:38.192865: Removed file: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\24618912_11_2022.cs.en.PDF
+2024-09-21 00:18:38.192865: Removed file: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\24618912_12_2022.cs.en.PDF
+2024-09-21 00:18:38.202446: Removed file: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\New Microsoft Excel Worksheet.xlsx
