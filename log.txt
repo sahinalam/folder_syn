@@ -3,3 +3,8 @@
 2024-09-20 23:44:03.456357: Removed file: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\24618912_01_2023.cs.en.PDF
 2024-09-21 00:02:09.262637: Copied file: C:\Users\sahin\Downloads\payslip\24618912_02_2023.cs.en.PDF to C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\.\24618912_02_2023.cs.en.PDF
 2024-09-21 00:03:09.315484: Removed file: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\24618912_02_2023.cs.en.PDF
+2024-09-21 00:12:09.809460: Created directory: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\.\New folder
+2024-09-21 00:13:09.856233: Created directory: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\.\New folder
+2024-09-21 00:13:09.862174: Removed directory: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\New_folder
+2024-09-21 00:13:39.900496: Created directory: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\.\New_folder
+2024-09-21 00:13:39.904292: Removed directory: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\New folder
