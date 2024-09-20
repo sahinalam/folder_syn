@@ -1,3 +1,5 @@
 2024-09-20 23:43:43.435080: Error during synchronization: [Errno 13] Permission denied: 'C:\\Users\\sahin\\Downloads\\payslip\\~$New Microsoft Excel Worksheet.xlsx'
 2024-09-20 23:43:53.437629: Copied file: C:\Users\sahin\Downloads\payslip\New Microsoft Excel Worksheet.xlsx to C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\.\New Microsoft Excel Worksheet.xlsx
 2024-09-20 23:44:03.456357: Removed file: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\24618912_01_2023.cs.en.PDF
+2024-09-21 00:02:09.262637: Copied file: C:\Users\sahin\Downloads\payslip\24618912_02_2023.cs.en.PDF to C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\.\24618912_02_2023.cs.en.PDF
+2024-09-21 00:03:09.315484: Removed file: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\24618912_02_2023.cs.en.PDF
