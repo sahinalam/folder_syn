@@ -4,7 +4,6 @@ Created on Fri Sep 20 18:28:06 2024
 
 @author: sahin
 """
-
 import os
 import shutil
 import time
@@ -69,15 +68,17 @@ def main():
     # Parse command line arguments
     parser = argparse.ArgumentParser(description="Synchronize two folders.")
     parser.add_argument('--source', required=True, help='Path to the source folder')
-    parser.add_argument('--replica', required=True, help='Path to the replica folder')
     parser.add_argument('--interval', type=int, required=True, help='Synchronization interval in seconds')
     parser.add_argument('--log', required=True, help='Path to the log file')
     args = parser.parse_args()
 
+    # Set the default replica directory under the current working directory
+    replica = os.path.join(os.getcwd(), 'replica')
+
     # Run synchronization periodically
     while True:
         try:
-            sync_folders(args.source, args.replica, args.log)
+            sync_folders(args.source, replica, args.log)
         except Exception as e:
             log_message(f"Error during synchronization: {str(e)}", args.log)
         time.sleep(args.interval)
