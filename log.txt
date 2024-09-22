@@ -32,3 +32,9 @@
 2024-09-22 22:07:41.723756: Copied file: C:\Users\sahin\Downloads\payslip\New Microsoft Excel Worksheet.xlsx to C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\.\New Microsoft Excel Worksheet.xlsx
 2024-09-22 22:08:51.954754: Copied file: C:\Users\sahin\Downloads\payslip\New Microsoft Excel Worksheet.xlsx to C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\.\New Microsoft Excel Worksheet.xlsx
 2024-09-22 22:09:22.006012: Error during synchronization: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\sahin\\Downloads\\data_engineer_task\\data_engineer_task\\folder_syn\\replica\\~$New Microsoft Excel Worksheet.xlsx'
+2024-09-22 22:15:15.060650: Removed file: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\24618912_03_2023.cs.en.PDF
+2024-09-22 22:15:15.060650: Removed file: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\24618912_04_2023.cs.en.PDF
+2024-09-22 22:15:15.065092: Removed file: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\24618912_11_2022.cs.en.PDF
+2024-09-22 22:15:15.065092: Removed file: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\24618912_12_2022.cs.en.PDF
+2024-09-22 22:15:15.066602: Removed file: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\New Microsoft Excel Worksheet.xlsx
+2024-09-22 22:15:15.068362: Removed directory: C:\Users\sahin\Downloads\data_engineer_task\data_engineer_task\folder_syn\replica\New_folder
