@@ -7,6 +7,7 @@ Created on Fri Sep 20 18:28:06 2024
 import os
 import shutil
 import time
+import hashlib
 import argparse
 from datetime import datetime
 
@@ -15,6 +16,18 @@ def log_message(message, log_file):
     print(message)
     with open(log_file, 'a') as f:
         f.write(f"{datetime.now()}: {message}\n")
+
+def calculate_md5(file_path):
+    """Calculate the MD5 hash of a file."""
+    hash_md5 = hashlib.md5()
+    try:
+        with open(file_path, "rb") as f:
+            for chunk in iter(lambda: f.read(4096), b""):
+                hash_md5.update(chunk)
+    except Exception as e:
+        print(f"Error calculating hash for {file_path}: {e}")
+        return None
+    return hash_md5.hexdigest()
 
 def sync_folders(source, replica, log_file):
     """Synchronize the replica folder to match the source folder."""
@@ -39,7 +52,12 @@ def sync_folders(source, replica, log_file):
         for file in files:
             source_file = os.path.join(root, file)
             replica_file = os.path.join(target_root, file)
-            if not os.path.exists(replica_file) or os.path.getmtime(source_file) != os.path.getmtime(replica_file):
+            
+            source_hash = calculate_md5(source_file)
+            replica_hash = calculate_md5(replica_file) if os.path.exists(replica_file) else None
+
+            # Copy file if it doesn't exist in replica or hashes are different
+            if source_hash != replica_hash:
                 shutil.copy2(source_file, replica_file)
                 log_message(f"Copied file: {source_file} to {replica_file}", log_file)
 
